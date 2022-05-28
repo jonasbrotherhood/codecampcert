@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+	  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <header>
+    <h1 id="title">Is Your Doggo A Good Boy?</h1>
+    <p id="description">Fill out the form to get definitive proof that your doggo is a good boy</p>
+  </header>
+  <body>
+    <form action="" id="survey-form" />
+      <fieldset>
+        <label id="name-label">Your Name: <input type="text" name="name" required id="name" placeholder="John Smith" class="tinput" /></label>
+        <label id="email-label">Your Email: <input type="email" id="email" required placeholder="johnsmith@email.com" class="tinput" /></label>
+        <label id="number-label" class="tfield"> Your age in dog years: <input type="number" id="number" max="840" min="70" placeholder="483" class="number" /></label>
+      </fieldset>
+      <fieldset>
+        <label>Your doggo's name: <input type="text" name="dogname" placeholder="Barky Chan" class="dname" /></label>
+      <p>How good is your boy?</p>
+          <div class="radio">
+        <label><input selected type="radio" name="dogscale" value="5" class="inline" /> The very best boy!</label>
+        <label><input type="radio" name="dogscale" value="4" class="inline" />  An extremely good boy!</label>
+        <label><input type="radio" name="dogscale" value="3" class="inline" />  lvl 100 good boy!</label>
+        <label><input type="radio" name="dogscale" value="2" class="inline" />  Voted #1 boy!</label>
+        <label><input type="radio" name="dogscale" value="1" class="inline" />  Would die for this boy!</label>
+        </div>
+        <p>Traits of your doggo (select all that apply): </p>
+        <div class="cbox">
+        <label><input type="checkbox" class="traits" name="trait" value="1" /> Playful</label>
+        <label><input type="checkbox" class="traits" name="trait" value="2" /> Loyal</label>
+        <label><input type="checkbox" class="traits" name="trait" value="3" /> Intelligent</label>
+        <label><input type="checkbox" class="traits" name="trait" value="4" /> Protective</label>
+        <label><input type="checkbox" class="traits" name="trait" value="5" /> Happy</label>
+        <label><input type="checkbox" class="traits" name="trait" value="6" /> Tenacious</label>
+        <label><input type="checkbox" class="traits" name="trait" value="7" /> Heroic</label>
+        <label><input type="checkbox" class="traits" name="trait" value="8" /> Fluffy</label>
+        </label>
+        </div>
+        <label >Does your doggo like water?
+          <select name="water" id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Loves water</option>
+            <option value="2">Okay with water</option>
+            <option value="3">Not a fan of water</option>
+            <option value="4">Husky</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Upload a picture of your pup: <input type="file" name="file" /></label>
+        </label>
+        <label class="describe">Describe your dog!:
+          <textarea name="bio" placeholder="He is a very good boy..."></textarea>
+			  </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

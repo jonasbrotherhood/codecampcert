@@ -1,0 +1,67 @@
+body {
+    width: 100%;  
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Georgia;
+    font-size: 20px;
+    background-color: rgba(8, 68, 156, 0.88);
+    color: white;
+   }
+   label {
+     display: block;
+     padding: 0.2rem 0;
+   }
+   textarea {
+     width: 100%;
+     height: 200px;
+     display: block;
+     font-size: 20px;
+   }
+   .inline {
+     width: unset;
+     margin: 0 0.5em 0 0;
+   }
+   .radio, .cbox {
+     text-align: left;
+     vertical-align: middle;
+   }
+   .cbox {
+     display: grid;
+     grid-template-columns: 200px 200px 200px 200px;
+     padding-bottom: 20px;
+   }
+   select {
+     width: 50%;
+     height: 30px;
+     display: inline;
+   }
+   fieldset {
+     border: 0px
+   }
+   input[type="text"], input[type="email"] {
+     width: 50%;
+   }
+   .describe {
+     padding-top: 15px;
+   }
+   h1 {
+     padding-top: 20px;
+   }
+   input, textarea, select {
+     background-color: rgba(15, 55, 114, 0.93) ;
+     color: rgb(170, 170, 170);
+   }
+   input[type="submit"] {
+     margin: auto;
+     height: 3rem;
+     width: 40%;
+     margin: 2rem auto;
+     font-size: 18px;
+   }
+   .inline, .traits {
+     margin: 0 10px;
+   }
+   ::placeholder {
+     color: rgb(170, 170, 170);
+   }
