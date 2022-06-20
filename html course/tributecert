@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Balto and his best buds</title>
+        <meta charset="UTF-8">
+        <link href="tribute2.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <main id="main">
+        <header>
+        </header>
+        <body>
+            <h1 id="title">Balto the true hero</h1>
+            <div id="img-div">
+                <img id="image" src="https://ewscripps.brightspotcdn.com/ec/11/c05a6aab40a5b652623969e0814b/betty-ann-and-shirley-quackenbush-with-balto.jpg" />
+                <figcaption id="img-caption">
+                    Balto (in the middle) and his bois
+                </figcaption>
+            </div>
+            <div id="tribute-info">
+                <h2>Reasons why he is the true hero:</h2>
+                <ul>
+                    <li>Because he risked his life to save children</li>
+                    <li>He was the one to actually get the medicine to the children</li>
+                </ul>
+                <h2>Reasons why he isn't the hero:</h2>
+                <ul>
+                    <li>. . .</li>
+                </ul>
+                <h3>Does this give Disney the right to take this hero's legacy away?</h3>
+                <p><strong>of course not!!!</strong></p>
+            </div>
+            <div id="qdiv">
+                <blockquote>
+                    <p>
+                        "I just wanted to get this medicine to these children, and maybe a few belly rubs. . ."
+                    </p>
+                    <cite>-- Balto (probably)</cite>
+                </blockquote>
+            </div>
+        </body>
+        <footer>
+            <div id="fdiv">
+              <h2>Sign the petition to keep balto as best boy 
+                <a id="tribute-link" href="huh" target="_blank">click here</a>
+              </h2>
+              <p id="disclaimer">No research was put into the actual claims of this page</p>
+            </div>
+        </footer>
+    </main>
+</html>
