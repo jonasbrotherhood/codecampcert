@@ -2,3 +2,9 @@ html {
     font-size: 10px;
     color: black;
 }
+section {
+    border: 1px red dotted;
+}
+.navbar {
+    border: 1px green dashed;
+}
