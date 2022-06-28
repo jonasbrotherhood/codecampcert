@@ -8,3 +8,7 @@ section {
 .navbar {
     border: 1px green dashed;
 }
+img {
+    max-width: 50rem;
+    max-height: 50rem;
+}
