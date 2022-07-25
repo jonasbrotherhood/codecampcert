@@ -1,35 +1,109 @@
 <!DOCTYPE html>
 <html>
     <head>
-     <!-- Figure out title before finishing -->
-        <title>Working Title</title>
+     
+        <title>Bees and bee accessories</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="product-landing-styles.css" />
     </head>
     <body>
         <header id="header">
-            <div>
-                <!-- Needs a logo for product  -->
-                <!-- <img id="header-img" class="logo" /> -->
+            <div class="img-div">
+                <img 
+                src="https://i.pinimg.com/736x/17/8e/34/178e3475f36c263eb076a327df7ffbcd.jpg" 
+                alt="No logo for you" 
+                id="header-img">
             </div>
+            <H2>Strickland Bees</H2>
             <div class="nav-div">
                 <nav id="nav-bar">
-                    <!-- nav bar list needs at least 3 items -->
-                    <ul></ul>
+                    <a href="#explanation" class="nav-link">About us</a>
+                    <a href="#howitworks" class="nav-link">How it Works</a>
+                    <a href="#subscriptions" class="nav-link">Subscriptions</a>
                 </nav>
             </div>
         </header>
         <main>
-            <section id="top-section">
-                <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <section id="explanation" name="explanation">
+                <h1>About Strickland Bees</h1>
+                <p>Strickland bees is a subscription service designed to let anyone start making honey at home.
+                     With a monthly delivery of bees and supplies,
+                     having homemade honey that is afforadable is no longer a problem.
+                </p>
+                <br>
+                <p>We responsibly source all of out bees from the attics of abandoned homes.
+                To ensure out customer sastifaction and to reduce our enviromental impact.
+                All bees are put through our 2 week "don't sting anyone" course to guarantee our customer's safety.
+                </p>
+            </section>
+            <sections id="howitworks">
+                <h2>How it works</h2>
+                <p>Strickland Bees is all about disrupting "big honey's" strangle-hold on the marketplace.
+                    Enjoy this video we made to show how we made homemade honey as easy as buying it from a store.
+                </p>
+                <div class="video-div">
+                    <iframe id="video" 
+                    src="https://www.youtube.com/embed/hloV8bWfyDo">
+                    </iframe>
+                </div>
+            </sections>
+            <!-- want 3 tiles with flex -->
+            <section id="subscriptions">
+                <h1>Our subscription options</h1>
+                <div class="sub-options">
+                    <div class="topsub">Basic</div>
+                    <span>what you can expect</span>
+                    <ul class="sublist">
+                        <li>Approx. 16oz of yield per month</li>
+                        <li>12 fresh and trained bees a month</li>
+                        <li>1 queen every 6 months</li>
+                        <li>hive frame</li>
+                        <input type="submit"
+                        value="$23/month">
+                    </ul>
+                </div>
+                <div class="sub-options">
+                    <div class="topsub">Premium</div>
+                    <span>what you can expect</span>
+                    <ul class="sublist">
+                        <li>Approx. 64oz of yield per month</li>
+                        <li>same as basic plus...</li>
+                        <li>30 extra bees</li>
+                        <li>5 "warrior" bees to protect your queen</li>
+                        <input type="submit"
+                        value="$42/month">
+                    </ul>
+                </div>
+                <div class="sub-options">
+                    <div class="topsub">Executive</div>
+                    <span>what you can expect</span>
+                    <ul class="sublist">
+                        <li>Approx. 2-3 tons of yield</li>
+                        <li>same as premium plus...</li>
+                        <li>4,500 bees a month picked by our bee experts</li>
+                        <li>2 hive frames</li>
+                        <input type="submit"
+                        value="$22,000/month">
+                    </ul>
+                </div>
+                <div id="formdiv">
+                    <h2>Questions?</h2>
+                    <p>input your email and we will contact you to answer any you might have</p>
+                  <form id="form" action="https://www.freecodecamp.com/email-submit">
                     <input name="email" 
                     id="email" 
-                    placeholder="Enter your email address" 
+                    placeholder="Enter your email address"
+                    type="email" 
                     required >
                     <input name="submit"
-                    type="submit" value="break a leg" class="btn">
-                </form>
+                    id="submit"
+                    type="submit" 
+                    value="submit" 
+                    class="btn">
+                  </form>
+                </div>
             </section>
+            
         </main>
     </body>
 </html>
