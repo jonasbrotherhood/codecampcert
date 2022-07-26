@@ -30,27 +30,31 @@ header {
     
 }
 .img-div {
-    height: 5rem;
-    width: 5rem;
+    height: 50px;
+    width: 50px;
     overflow: hidden;
     margin-left: 1.5rem;
+    background-color: black;
+    z-index: 3;
+
 
 }
 #header-img {
-    position: absolute;
+    position: relative;
     /* object-fit: cover;
     object-position: 10% 50% ; */
     height: 14rem;
     width: 12rem;
-    top: -31px;
-    left: -16px;
-    z-index: 0;
+    top: -55px;
+    left: -45px;
+    z-index: 999;
     
 }
 header > h1 {
     border: 1px solid black;
     margin-left: 1rem;
     color: rgb(216, 197, 72);
+    z-index: 12;
 }
 
 #nav-bar > a {
@@ -88,7 +92,4 @@ iframe {
 }
 .sub-options li {
     list-style: none;
-}
-#img-div {
-    overflow: hidden;
 }
