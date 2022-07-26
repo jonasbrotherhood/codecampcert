@@ -1,7 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 html {
     font-size: 10px;
+    background-color: lightgray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+}
+div {
+    border: 5px solid limegreen;
+}
+section {
+    border: 3px dashed aqua;
+}
+/* Header styling */
+
+header {
+    display: inline-flex;
+    border: 5px solid red;
+    position: fixed;
+    top: 0;
+    height: 10rem;
+    max-height: 25%;
+    min-height: 5rem;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(29, 29, 31);
+    
+}
+.img-div {
+    height: 5rem;
+    width: 5rem;
+    overflow: hidden;
+    margin-left: 1.5rem;
+
 }
 #header-img {
-    height: 15rem;
-    width: 10rem;
+    position: absolute;
+    /* object-fit: cover;
+    object-position: 10% 50% ; */
+    height: 14rem;
+    width: 12rem;
+    top: -31px;
+    left: -16px;
+    z-index: 0;
+    
+}
+header > h1 {
+    border: 1px solid black;
+    margin-left: 1rem;
+    color: rgb(216, 197, 72);
+}
+
+#nav-bar > a {
+    color: rgb(216, 197, 72);
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0 4px;
+}
+#nav-bar > a:hover {
+    color: rgb(187, 187, 187)
+}
+.nav-div {
+    float: right;
+}
+
+
+/* main styling */
+
+main {
+    margin-top: 10rem;
+    border: 3px solid plum;
+    font-size: 14px;
+}
+iframe {
+    width: 60%;
+    height: 95%;
+    display: block;
+    margin: 0.5rem auto;
+}
+.video-div {
+    width: 100%;
+    height: 25rem;
+    align-items: center;
+    justify-items: center;
+}
+.sub-options li {
+    list-style: none;
+}
+#img-div {
+    overflow: hidden;
 }
